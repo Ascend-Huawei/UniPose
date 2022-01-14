@@ -1,5 +1,22 @@
 # UniPose
 
+
+### Download Pretained Model
+See [Releases](https://github.com/Ascend-Huawei/UniPose/releases)
+<br>
+
+### RUN on PC:
+```
+python unipose.py --pretrained pretrained/UniPose_MPII.pth
+```
+
+### Run on 200dk
+```
+python run_unipose.py
+```
+<br>
+<hr>
+
   <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Artacho_UniPose_Unified_Human_Pose_Estimation_in_Single_Images_and_Videos_CVPR_2020_paper.html">**UniPose: Unified Human Pose Estimation in Single Images and Videos**</a>.
 </p><br />
 
