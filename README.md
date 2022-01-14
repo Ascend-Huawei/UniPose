@@ -14,6 +14,15 @@ python unipose.py --pretrained pretrained/UniPose_MPII.pth
 ```
 python run_unipose.py
 ```
+
+-  Performace on 200dk
+
+    | Model | Pre-process | Inference | Post-process | Sum | FPS |
+    | --- | --- | --- | --- | --- | --- |
+    | Unipose | 0.020776 | 0.017968 | 0.115213 | 0.153957 | 6.495 |
+    | Unipose merge post-process by `nonzero` op | 0.022704 | 0.968188 | 0 | 0.990892 | 1.009 |
+    | Unipose merge post-process by `argmax` op | 0.01951217 | 0.1023523 | 0 | 0.121864 | 8.206 |
+
 <br>
 <hr>
 
